@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Optimal Vehicle Assignment</title>
+</head>
+<body>
+    <h2>Optimal Vehicle Assignment</h2>
+    <form action="/optimize_assignment" method="post">
+        <label for="vehicleId">Vehicle ID:</label><br>
+        <input type="text" id="vehicleId" name="vehicleId"><br><br>
+        
+        <label for="vehicleType">Vehicle Type:</label><br>
+        <input type="text" id="vehicleType" name="vehicleType"><br><br>
+        
+        <label for="vehicleSize">Vehicle Size:</label><br>
+        <input type="text" id="vehicleSize" name="vehicleSize"><br><br>
+        
+        <label for="parkingDuration">Parking Duration (in hours):</label><br>
+        <input type="number" id="parkingDuration" name="parkingDuration"><br><br>
+        
+        <label for="preferredLocation">Preferred Parking Location:</label><br>
+        <input type="text" id="preferredLocation" name="preferredLocation"><br><br>
+        
+        <label for="preferredTime">Preferred Parking Time:</label><br>
+        <input type="text" id="preferredTime" name="preferredTime"><br><br>
+        
+        <input type="submit" value="Find Best Assignment">
+    </form>
+</body>
+</html>
